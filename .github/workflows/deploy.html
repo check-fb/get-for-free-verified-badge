@@ -37,6 +37,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "https://github.com/check-fb/get-for-free-verified-badge"
+          project: "deno install -Arf jsr:@deno/deployctl"
           entrypoint: "badge"
           root: "verified"
