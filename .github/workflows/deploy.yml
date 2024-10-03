@@ -37,6 +37,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "check-fb-get-for-fre-83"
+          project: "get-free-verified-badge"
           entrypoint: "badge"
           root: "verified"
